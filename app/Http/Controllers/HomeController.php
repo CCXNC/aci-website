@@ -22,4 +22,19 @@ class HomeController extends Controller
     {
         return view('pages.products');
     }
+
+    public function services(): View
+    {
+        return view('pages.services');
+    }
+
+    public function aboutus(): View
+    {
+        return view('pages.aboutus');
+    }
+
+    public function careers(): View
+    {
+        return view('pages.careers');
+    }
 }

@@ -10,6 +10,9 @@ use App\Http\Controllers\HomeController;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/contactus', [HomeController::class, 'contactus'])->name('contactus');
 Route::get('/products', [HomeController::class, 'products'])->name('products');
+Route::get('/services', [HomeController::class, 'services'])->name('services');
+Route::get('/aboutus', [HomeController::class, 'aboutus'])->name('aboutus');
+Route::get('/careers', [HomeController::class, 'careers'])->name('careers');
 /*Route::resource('jobs', JobController::class)->middleware('auth')->only(['create', 'edit', 'update', 'destroy']);
 Route::resource('jobs', JobController::class)->except(['create', 'edit', 'update', 'destroy']);
 

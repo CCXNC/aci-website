@@ -109,3 +109,12 @@
   </div>
   </div>
   </section>
+
+  With Barely 7 Years of existence asian connect inc (ACI) had gained leverage to showcase its well accepted and best practices workmanship in the ICT Infrastructure particularly.      
+  <div>
+      <ul class="list-disc pl-5 space-y-1 mt-3">
+          <li>Structured cabling for PICO CELL</li>
+          <li>Lamp site platforms covering small to macro cell wireless networking solutions</li>
+          
+      </ul>
+  </div>  

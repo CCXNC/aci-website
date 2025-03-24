@@ -22,9 +22,9 @@
             <nav class="hidden md:flex items-center tracking-wide space-x-4">
                 <x-nav-link url="/" :active="request()->is('/')">Home</x-nav-link>
                 <x-nav-link url="/products" :active="request()->is('products')">Products</x-nav-link>
-                <x-nav-link url="/jobs/saved" :active="request()->is('jobs/saved')">Solutions</x-nav-link>
-                <x-nav-link url="/dashboard" :active="request()->is('dashboard')">About Us</x-nav-link>
-                <x-nav-link url="/dashboard" :active="request()->is('dashboard')">Career</x-nav-link>
+                <x-nav-link url="/services" :active="request()->is('services')">Services</x-nav-link>
+                <x-nav-link url="/aboutus" :active="request()->is('aboutus')">About Us</x-nav-link>
+                <x-nav-link url="/careers" :active="request()->is('careers')">Career</x-nav-link>
                 <x-button-link url="/contactus" :active="request()->is('contactus')" icon="fa fa-network-wired">Contact Us</x-button-link>
             </nav>
 
@@ -44,9 +44,9 @@
         <nav class="tracking-wide space-y-2 p-4">
             <x-nav-link url="/" :active="request()->is('/')" :mobile="true">Home</x-nav-link>
             <x-nav-link url="/products" :active="request()->is('products')" :mobile="true">Products</x-nav-link>
-            <x-nav-link url="/jobs/saved" :active="request()->is('jobs/saved')" :mobile="true">Solutions</x-nav-link>
-            <x-nav-link url="/dashboard" :active="request()->is('dashboard')" :mobile="true">About Us</x-nav-link>
-            <x-nav-link url="/dashboard" :active="request()->is('dashboard')" :mobile="true">Career</x-nav-link>
+            <x-nav-link url="/services" :active="request()->is('services')" :mobile="true">Services</x-nav-link>
+            <x-nav-link url="/aboutus" :active="request()->is('aboutus')" :mobile="true">About Us</x-nav-link>
+            <x-nav-link url="/careers" :active="request()->is('careers')" :mobile="true">Career</x-nav-link>
             <div class="pt-1"></div>
             <x-button-link url="/contactus" :active="request()->is('contactus')" icon="fa fa-network-wired" :block="true">Contact Us</x-button-link>
         </nav>
